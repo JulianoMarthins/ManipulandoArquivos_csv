@@ -1,7 +1,5 @@
 package entities;
 
-import java.util.Locale;
-
 public class Produto {
     private String nome;
     private Double preco;
