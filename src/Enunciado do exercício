@@ -1,0 +1,28 @@
+
+
+
+          Fazer um programa para ler o caminho de um arquivo .csv contendo dados de itens vendidos. cada item possui
+    um nome, preço unitário e quantidade, separados por vírgula. Você deve gerar um novo arquivo chamado "summary.cvs",
+    localizado em uma subpasta chamada "out" apartir da pasta original do arquivo de origem, contendo apenas o nome e
+    o valor total para aquele item. (Preço unitário multiplicado pela quantidade), conforme exemplo do vídeo.
+
+
+
+
+    Arquivo de entrada:
+
+    Televisor 4K,1290.99,1
+    Video Game Chair,350.50,3
+    Iphone X,900.00,2
+    Samsung Galaxy 9,850.00,2
+
+
+    Arquivo de saída:
+
+    Televisor 4K, 1290.99
+    Video Game Chair, 1051.50
+    Iphone X, 1800.00
+    Samsung Galaxy 9, 1700.00
+
+
+    split()
